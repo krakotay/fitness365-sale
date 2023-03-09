@@ -24,7 +24,7 @@ payType = "Beznal"
 cashdeskId = ""
 activationDate = "01.01.2023"
 data2 = {'phone': phone, 'amount': amount, 
-'description': description, 'productId' : productId, 'payType': payType, 'cashdeskId': cashdeskId}
+'description': description, 'productId' : productId, 'payType': payType, 'cashdeskId': cashdeskId, 'activationDate' : activationDate}
 
 get_sale = requests.post('https://w.fitness365.ru/api/v1/saleByClientPhone', json=data2, headers=headers)
 
