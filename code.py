@@ -1,7 +1,5 @@
 import requests
 from base64 import b64encode
-import pandas as pd
-from tabulate import tabulate
 import json
 
 def basic_auth(username, password):
